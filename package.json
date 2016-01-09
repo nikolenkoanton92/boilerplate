@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "express-react-jspm-babel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolenkoanton92/boilerplate.git"
+  },
+  "keywords": [
+    "jspm",
+    "express",
+    "react"
+  ],
+  "author": "Anton Nikoleno <nikolenkoanton92@gmail.com> (http://antonnikolenko.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolenkoanton92/boilerplate/issues"
+  },
+  "homepage": "https://github.com/nikolenkoanton92/boilerplate#readme",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}
