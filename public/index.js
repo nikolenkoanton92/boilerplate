@@ -1,20 +1,18 @@
-import React from 'react'
 import ReactDOM from 'react-dom'
 import { Router, Route, IndexRoute } from 'react-router'
 import { createHistory } from 'history'
 import App from './container/App/index'
-import MainSection from './component/MainSection/index.jsx!'
-import AboutSection from './component/AboutSection/index.jsx!'
-import FeatureSection from './component/FeatureSection/index.jsx!'
+import IndexPage from './page/Index/index.jsx!'
+import AboutPage from './page/About/index.jsx!'
+import FeaturePage from './page/Feature/index.jsx!'
 
 const history = createHistory()
-
 
 ReactDOM.render((
   <Router history={history}>
     <Route path="/" component={App}>
-      <IndexRoute component={MainSection} />
-      <Route path="feature" component={FeatureSection} />
-      <Route path="about" component={AboutSection} />
+      <IndexRoute component={IndexPage} />
+      <Route path="feature" component={FeaturePage} />
+      <Route path="about" component={AboutPage} />
     </Route>
   </Router>), document.getElementById('main'))
