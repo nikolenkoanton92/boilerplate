@@ -8,11 +8,16 @@
 - [ ] [Babel](https://babeljs.io/)
 - [x] [React Router](https://github.com/rackt/react-router)
 - [ ] Authentication
+- [ ] [Bootstrap](http://getbootstrap.com/)
 
 ## Setup
 
 ```
 $ npm install
+```
+
+```
+$ jspm install
 ```
 
 ## Running
