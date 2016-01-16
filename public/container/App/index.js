@@ -7,8 +7,7 @@ class App extends React.Component {
     return (
       <div>
         <Navbar />
-        <h1>My JSPM - Reactjs Boilerplate</h1>
-        {this.props.children}
+          {this.props.children}
         <Footer />
       </div>
       )
