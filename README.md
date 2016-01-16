@@ -8,7 +8,7 @@
 - [ ] [Babel](https://babeljs.io/)
 - [x] [React Router](https://github.com/rackt/react-router)
 - [ ] Authentication
-- [ ] [Bootstrap](http://getbootstrap.com/)
+- [x] [Bootstrap](http://getbootstrap.com/)
 
 ## Setup
 
