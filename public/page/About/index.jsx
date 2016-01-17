@@ -3,8 +3,12 @@ import React from 'react'
 class About extends React.Component {
   render() {
     return (
-      <div>
-        <h2>About Page</h2>
+      <div className="container">
+        <div className="row">
+          <h2 className="text-center">About Page</h2>
+          <p className="text-center">Just example of about page for show how <b>react-router</b> works</p>
+          <p className="text-center">Also, I leave here a link to my <a href="https://github.com/nikolenkoanton92">Github Profile</a></p>
+        </div>
       </div>
       )
   }
